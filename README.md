@@ -22,43 +22,43 @@
             margin: 0;
         }
         /* link styles */
-        
+
         a {
             text-decoration: none;
             border-bottom: 1px dotted;
             padding-bottom: .1em;
         }
-        
+
         a:link {
             color: #C00;
         }
-        
+
         a:visited {
             color: #921A66;
         }
-        
+
         a:focus {
             color: #921A66;
         }
-        
+
         a:hover {
             color: #921A66;
         }
-        
+
         a:active {
             color: #F00;
         }
         /* styles for the intro section */
-        
+
         #intro {
             text-align: center;
             margin: 2em 0 1em;
         }
-        
+
         #intro h1 {
             margin-bottom: 0;
         }
-        
+
         #intro h2 {
             font-size: 1.2em;
             text-transform: uppercase;
@@ -66,27 +66,27 @@
             color: #f26521;
             margin-top: -10px;
         }
-        
+
         #intro p {
             font-family: Georgia, "Times New Roman", Times, serif;
             font-style: italic;
             margin: 1em;
         }
         /* styles for navigation */
-        
+
         #nav {
             background-color: #751c54;
             overflow: hidden;
             width: 100%;
         }
-        
+
         #nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0 auto;
             width: 19.5em;
         }
-        
+
         #nav ul li {
             float: left;
             list-style-type: none;
@@ -95,63 +95,61 @@
             padding: 0;
             margin: 0;
         }
-        
+
         #nav ul a:link {
             list-style-type: none;
             color: #fff;
             padding: 0;
             margin: 0;
         }
-        
+
         #nav ul a:visited {
             list-style-type: none;
             color: #fff;
             padding: 0;
             margin: 0;
         }
-        
+
         #nav ul a:focus {
             list-style-type: none;
             color: #FC6 border-color: #fff;
             padding: 0;
             margin: 0;
         }
-        
+
         #nav ul a:hover {
             color: #fc6;
             border-color: #fff;
             padding: 0;
             margin: 0;
         }
-        
+
         #nav ul a:active {
             list-style-type: none;
             color: #F00;
             padding: 0;
             margin: 0;
-        }
-        
-        #products {
-            clear: both;
-            overflow: hidden;
-        }
+        {
+
         /* styles for the products section */
-        
+
         #products {
             background-color: #FFF;
             line-height: 1.5em;
-            padding: 1em;
+            padding: 1em 2%;
             border: double #FFBC53;
-            margin: 1em;
+            margin: 0 2% 1em;
+            float: left;
+            width: 55%
         }
-        
+
         #products h2 {
             font-size: 1.2em;
             color: #ac267b;
-            text-align: center;
+            text-align: left;
             text-transform: uppercase;
         }
-        
+
         #products h3 {
             font-size: 1em;
             text-transform: uppercase;
@@ -162,7 +160,7 @@
             margin-top: 2.5em;
         }
         /* styles for the testimonials box */
-        
+
         #testimonials {
             background: #FFBC53 url(images/ex-circle-corner.gif) no-repeat left top;
             color: #633;
@@ -172,9 +170,9 @@
             padding-left: 55px;
             -moz-border-radius: 20px;
             border-radius: 20px;
-            margin: 1em 10%;
+            margin: 1em 2% 1em 64%;
         }
-        
+
         #testimonials h2 {
             font-size: 1em;
             text-transform: uppercase;
@@ -182,31 +180,32 @@
             letter-spacing: 3px;
         }
         /* miscellaneous styles */
-        
+
         em {
             color: #F26521;
         }
-        
+
         p#copyright {
             color: #663333;
             font-size: .8em;
             text-align: center;
+            clear: left;
         }
-        
+
         #products img {
             float: left;
             margin: 0 6px 6px 0;
         }
-        
+
         #products .more {
             clear: left;
         }
-        
+
         #nav {
             overflow: hidden;
             width: 100%
         }
-        
+
         nav ul li a {
             display: block;
             padding: .5em;
@@ -239,6 +238,7 @@
 
     <div id="content">
         <div id="products">
+
             <h2>New Products</h2>
             <h3>Barware</h3>
             <p><img src="images/glasses.jpg" alt="photo of glasses decorated with the letter R"></p>
