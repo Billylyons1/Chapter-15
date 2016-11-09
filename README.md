@@ -214,9 +214,10 @@
             margin: .25em;
         }
         #award {
-        position: absolute;
+        position: fixed;
       top: 35px;
     left: 25px;
+
   }
     </style>
 
