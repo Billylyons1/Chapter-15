@@ -213,6 +213,11 @@
             border-radius: .5em;
             margin: .25em;
         }
+        #award {
+        position: absolute;
+      top: 35px;
+    left: 25px;
+  }
     </style>
 
 </head>
@@ -263,6 +268,9 @@
         </div>
         <p>&nbsp;</p>
         <p id="copyright">All content copyright &copy; Jennifer Robbins and Jenware, Inc. </p>
+    </div>
+    <div id="award">
+      <img src="images/awesomesite.gif" alt="awesome site of the week"
     </div>
     <!-- end #content -->
 </body>
